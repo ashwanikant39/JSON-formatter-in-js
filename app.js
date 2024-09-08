@@ -41,6 +41,7 @@ crossIcon.addEventListener("click", () => {
   urlPopup.classList.add("hide-popup");
   urlPopup.classList.remove("url-popup");
 });
+
 paste.addEventListener("click", async () => {
   let text = await navigator.clipboard.readText();
   textField.value = text;
