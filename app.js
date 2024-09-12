@@ -123,7 +123,7 @@ viewer.addEventListener("click", () => {
   // Sample JSON data (Replace with your JSON)
   const jsonData = JSON.parse(textField.value);
 
-  console.log(jsonData);
+  // console.log(jsonData);
 
   // Function to create a collapsible element
   function createCollapsibleElement(key, value, parentKey) {
