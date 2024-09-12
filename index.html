@@ -12,7 +12,8 @@
       <div id="text">Text</div>
     </div>
 
-    <div id="text-section">
+    <!-- Text section -->
+    <div class="text-section">
       <div id="text-nav">
         <ul>
           <li id="paste">Paste</li>
@@ -33,6 +34,50 @@
       </div>
     </div>
 
+    <!-- Viewer section -->
+
+    <div class="viewer-section-hide">
+      <div class="sideBarHead">
+        <div id="content">
+          <div class="container">
+            <!-- JSON Viewer Section -->
+            <div class="json-viewer" id="json-viewer">
+              <h2>JSON Viewer</h2>
+            </div>
+
+            <!-- Table View Section -->
+            <div class="table-view" id="table-view">
+              <div id="table-header">
+                <h3>Table View</h3>
+              </div>
+              <table id="data-table">
+                <thead>
+                  <tr>
+                    <th>Key</th>
+                    <th>Value</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <!-- Table rows will be dynamically populated here -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <div id="sidebar">
+          <h2>Resizable Sidebar</h2>
+          <div id="resizer"></div>
+        </div>
+      </div>
+
+      <!-- <div class="side-1">
+        <textarea name="" id="output1"></textarea>
+        side 1
+      </div>
+      <div class="side-2">side 2</div> -->
+    </div>
+
     <div class="load-data-sec">
       <div class="hide-popup">
         <div class="head">
@@ -48,6 +93,23 @@
           <input type="text" name="" id="link-url" />
         </label>
         <button id="load-data-btn">Load JSON data</button>
+      </div>
+    </div>
+
+    <div class="err-hide">
+      <div class="err-hide-popup">
+        <div class="err-head">
+          <p>JSON error</p>
+        </div>
+        <div class="middle-sec">
+          <img
+            src="https://cdn-icons-png.flaticon.com/128/3389/3389152.png"
+            alt="icon"
+          />
+          <p>Invalid JSON data</p>
+        </div>
+
+        <button id="err-ok">OK</button>
       </div>
     </div>
 
